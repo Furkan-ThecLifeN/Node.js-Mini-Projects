@@ -1,0 +1,3 @@
+Alışveriş: Süt, ekmek al
+Başlık1: Bu bir test notudur
+Final: Bu proje tamamlanmıştır
