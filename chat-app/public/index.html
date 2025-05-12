@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini Chat</title>
+  <style>
+    body { font-family: sans-serif; background: #f2f2f2; padding: 2rem; }
+    #messages { list-style: none; padding: 0; }
+    #messages li { background: #fff; padding: 0.5rem; margin-bottom: 0.5rem; border-radius: 5px; }
+  </style>
+</head>
+<body>
+  <h2>🗨️ Anlık Mesajlaşma</h2>
+  <ul id="messages"></ul>
+  <form id="form">
+    <input id="input" autocomplete="off" placeholder="Mesaj yaz..." />
+    <button>Gönder</button>
+  </form>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
